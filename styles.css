@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 15px;
+}
+
+body{
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+section{
+  padding: 2rem;
+  
+}
+
+section p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.section-1{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.section-1 button{
+  color: hsl(31, 77%, 52%);
+}
+
+.section-2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section-2 button{
+  color: hsl(184, 100%, 22%);
+}
+
+.section-3{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.section-3 button{
+  color: hsl(179, 100%, 13%);
+}
+
+button{
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 95%);
+  vertical-align: middle;
+  padding: 1.5rem;
+  border-radius: ;
+  cursor: pointer;
+}
