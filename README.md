@@ -15,8 +15,12 @@ Users should be able to:
 
 WEB:
 
-![](/Screenshots/FM%20-%2005(2).png)
+![](/screenshots/FM-05(2).png)
 
+
+MOBILE:
+
+![](/screenshots/FM-05(1).png)
 
 ### Links
 
